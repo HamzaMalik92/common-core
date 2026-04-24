@@ -1,4 +1,4 @@
-package com.pixel.commondto.util;
+package com.pixel.common.util;
 
 import lombok.experimental.UtilityClass;
 
