@@ -7,7 +7,7 @@ import lombok.experimental.UtilityClass;
 public class MaskingUtil {
 
     // Fully hides any sensitive value — returns [PROTECTED]
-    public String hide(String value) {
+    public String hide(final String value) {
         if (value == null || value.isEmpty()) return "";
         return "[PROTECTED]";
     }
