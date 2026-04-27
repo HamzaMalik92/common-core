@@ -1,14 +1,16 @@
-# .github/workflows/publish.yml
 name: CI - Test & Publish
 
 on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
