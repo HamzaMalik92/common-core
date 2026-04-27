@@ -50,3 +50,11 @@ build/
 ### OS ###
 .DS_Store
 Thumbs.db
+
+### Secrets / local config (defensive — repo is public) ###
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets/
