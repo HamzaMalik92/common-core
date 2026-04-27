@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class MaskingUtilTest {
 
     @Nested
-    @DisplayName("hide(value)")
+    @DisplayName("hide(values)")
     class Hide {
 
         @Test
