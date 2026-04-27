@@ -19,6 +19,6 @@ public class MaskingUtil {
         String name = parts[0];
         String domain = parts[1];
         if (name.length() <= 3) return "***@" + domain;
-        return name.substring(0, 3) + "***@" + domain;
+        return name.substring(0, 3) + "****@" + domain;
     }
 }
